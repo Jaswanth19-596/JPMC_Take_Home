@@ -1,0 +1,32 @@
+Cluster Sizes:
+cluster
+3    111704
+1     56201
+0     25597
+2      6021
+Name: count, dtype: int64
+
+Cluster Summary (Numeric Means):
+               age  wage_per_hour  capital_gains  weeks_worked_in_year
+cluster                                                               
+0        40.000703     215.738993     679.063718             45.968160
+1         8.726838       0.612978       1.335421              0.367609
+2        45.886232      17.687261      67.611692             18.216243
+3        45.582522      48.303794     616.560741             29.693995
+
+Top Education Level per Cluster:
+cluster
+0    High school graduate
+1                Children
+2        5th or 6th grade
+3    High school graduate
+Name: education, dtype: str
+
+Top Occupation per Cluster:
+cluster
+0    Machine operators assmblrs & inspctrs
+1                          Not in universe
+2                          Not in universe
+3                          Not in universe
+Name: major_occupation_code, dtype: str
+
